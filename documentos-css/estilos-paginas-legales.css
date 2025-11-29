@@ -1,0 +1,60 @@
+/* ------------------------------- */
+/*      ESTILOS GENERALES          */
+/* ------------------------------- */
+
+.contenedorPaginaLegal{
+    background-color: #d0e3ed;
+    text-align: left;
+    border-radius: 35px;
+    padding: 10px 70px;
+    margin: 50px;
+}
+
+.contenedorPaginaLegal h2{
+    text-align: left;
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+
+.contenedorPaginaLegal span{
+    font-weight: bolder;
+}
+
+
+/* -------------------------------- */
+/*         TABLET ≤900px            */
+/* -------------------------------- */
+
+@media (max-width: 900px){
+
+    .contenedorPaginaLegal{
+        padding: 10px 40px;
+        margin: 30px;
+    }
+
+    .contenedorPaginaLegal h2{
+        margin-top: 30px;
+    }
+}
+
+
+/* -------------------------------- */
+/*         MÓVIL ≤768px             */
+/* -------------------------------- */
+
+@media (max-width: 768px){
+
+    .contenedorPaginaLegal{
+        padding: 10px 20px;
+        margin: 20px;
+    }
+
+    .contenedorPaginaLegal h2{
+        margin-top: 20px;
+        font-size: 1.5rem;
+    }
+
+    .contenedorPaginaLegal span{
+        font-size: 1rem;
+    }
+}

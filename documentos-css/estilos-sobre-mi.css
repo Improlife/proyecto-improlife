@@ -1,0 +1,140 @@
+/* ---------------------- */
+/*  ESTILOS DE ESCRITORIO */
+/* ---------------------- */
+
+.fila1SobreMi{
+    background-color: #d0e3ed;
+    display: flex;
+    border-radius: 35px;
+    justify-content: space-between;
+    padding: 0px 0px 0px 150px;
+    margin: 0px 200px 35px 200px;
+}
+
+.fila1SobreMi div{
+    flex: 1;
+}
+
+.fila1SobreMi h2{
+    margin-top: 50px;
+}
+
+.fila1SobreMi img{
+    padding-top: 20px;
+}
+
+.fila2SobreMi{
+    background-color: #d0e3ed;
+    border-radius: 35px;
+    padding:  5px 0px 40px 0px;
+    margin: 0px 200px 35px 200px;
+}
+
+.fila2SobreMi div{
+    margin: 0px auto 50px auto;
+}
+
+.fila3SobreMi{
+    background-color: #d0e3ed;
+    border-radius: 35px;
+    padding:  5px 0px 10px 0px;
+    margin: 0px 200px 35px 200px;
+}
+
+.contenedorFila3SobreMi{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 100px;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.contenedorFila3SobreMi div{
+    flex: 1;
+}
+
+/* Orden escritorio */
+.contenedorContacto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 50px;
+    margin-top: -40px;
+    order: 1;
+}
+
+.contenedorContacto a{
+    margin-right: 40px;
+}
+
+.contenedorFila3SobreMi > div:last-child {
+    order: 2;
+}
+
+.contenedorFila3SobreMi p{
+    margin-bottom: 25px;
+}
+
+
+
+
+/* --------------------------- */
+/*         TABLET ≤ 900px      */
+/* --------------------------- */
+
+@media (max-width: 900px){
+
+    .fila1SobreMi,
+    .fila2SobreMi,
+    .fila3SobreMi {
+        margin: 0px 20px 25px 20px;
+        padding: 20px;
+    }
+
+    /* Fila 1 */
+    .fila1SobreMi {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+
+
+    .fila1SobreMi h2{
+        margin-top: 20px;
+    }
+
+    /* Fila 3: texto arriba, contacto abajo */
+    .contenedorFila3SobreMi{
+        flex-direction: column;
+        padding-right: 0;
+    }
+
+    .contenedorFila3SobreMi > div:last-child {
+        order: 1;
+    }
+
+    .contenedorContacto{
+        order: 2;
+        margin: 0px auto 0px auto;
+        padding-left: 0;
+    }
+
+    .contenedorContacto a{
+        margin-right: 0;
+    }
+}
+
+
+
+
+/* --------------------------- */
+/*          MÓVIL ≤ 768px      */
+/* --------------------------- */
+
+@media (max-width: 768px){
+
+
+    .contenedorContacto{
+        margin-top: 30px;
+    }
+}

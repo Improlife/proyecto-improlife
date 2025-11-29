@@ -1,0 +1,71 @@
+/* ------------------------------- */
+/*      ESTILOS GENERALES          */
+/* ------------------------------- */
+
+label, input, select, textarea{
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: #084d6e;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+label{
+    margin-bottom: 1.25rem;
+    font-weight: bold;
+}
+
+input, select, textarea{
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+.seccionSecundaria{
+    background-color: #d0e3ed;
+    border-radius: 35px;
+    padding: 20px 300px;
+    margin: 0 auto 35px auto;
+    max-width: 1200px; /* Limita el ancho máximo */
+    width: 100%; /* Ocupa todo el ancho disponible sin exceder max-width */
+    box-sizing: border-box; /* Incluye padding en el ancho total */
+}
+
+
+/* -------------------------------- */
+/*         TABLET ≤900px            */
+/* -------------------------------- */
+
+@media (max-width: 900px){
+
+    label, input, select, textarea{
+        font-size: 1rem;
+        padding: 5px 8px;
+        margin-bottom: 1.5rem;
+    }
+
+    .seccionSecundaria{
+        padding: 20px 40px;
+        width: 100%;
+    }
+}
+
+
+/* -------------------------------- */
+/*         MÓVIL ≤768px             */
+/* -------------------------------- */
+
+@media (max-width: 768px){
+
+    label, input, select, textarea{
+        font-size: 0.95rem;
+        padding: 4px 6px;
+        margin-bottom: 1.25rem;
+    }
+
+    .seccionSecundaria{
+        padding: 20px 15px;
+        width: 100%;
+    }
+}
