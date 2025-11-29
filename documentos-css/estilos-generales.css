@@ -301,6 +301,10 @@ footer p{
         text-align: left;
     }
 
+    footer p{
+        font-size: 0.8rem;
+    }
+
     footer a{
         font-size: 0.8rem;
     }

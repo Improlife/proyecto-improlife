@@ -33,7 +33,7 @@ button:hover{
     padding: 2rem;
     display: inline-block;
     width: 100%;
-    max-width: 500px; /* Limita ancho máximo */
+    max-width: 600px; /* Limita ancho máximo */
     vertical-align: top;
     transition: transform 0.3s ease;
     box-sizing: border-box;
@@ -110,6 +110,10 @@ button:hover{
         width: 100%;
         margin: 1rem 0;
         padding: 1.2rem;
+    }
+
+    .tarjetaServicios ul{
+        margin-top: 10px;
     }
 
     .filaServicios{
