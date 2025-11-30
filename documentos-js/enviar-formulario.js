@@ -1,5 +1,5 @@
  // Inicialización
-    emailjs.init("TtDm1ziFTtxw3FuRwk");
+    emailjs.init("tDm1ziFTtxw3FuRwk");
 
     // Envío del formulario
     document.getElementById("formContacto").addEventListener("submit", function(event) {
