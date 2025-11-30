@@ -29,27 +29,21 @@
         </section>
         <section class="seccionSecundaria">
             <h2>¡Reserva tu cita hoy mismo!</h2>
-            <form id="formularioContacto" action="/enviar" method="post">
-                
+            <form id="formularioContacto">
                 <label for="nombre">Nombre:</label><br>
                 <input type="text" id="nombre" name="nombre" required><br>
-
                 <label for="email">Correo electrónico:</label><br>
                 <input type="email" id="email" name="email" required><br>
-
                 <label for="telefono">Número de teléfono:</label><br>
                 <input type="tel" name="telefono" id="telefono" required><br>
-
                 <label for="numeroSesiones">Selecciona cuántas sesiones quieres contratar:</label><br>
                 <select id="numeroSesiones" name="numeroSesiones">
                     <option value="1sesion">1 Sesión a domicilio</option>
                     <option value="5sesiones">Bono de 5 sesiones</option>
                     <option value="10sesiones">Bono de 10 sesiones</option>
                 </select><br>
-
                 <label for="mensaje">Descríbeme brevemente tu problema:</label><br>
                 <textarea id="mensaje" name="mensaje" rows="6"></textarea><br>
-
                 <button type="submit" class="botonPrincipal">Enviar</button>
             </form>
         </section>
