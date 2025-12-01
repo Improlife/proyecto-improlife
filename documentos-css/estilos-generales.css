@@ -1,7 +1,3 @@
-/* --------------------------------- */
-/*      ESTILOS GENERALES (DESKTOP)  */
-/* --------------------------------- */
-
 h1, h2, h3, h4{
   font-family: 'Montserrat', sans-serif;
 }
@@ -56,10 +52,7 @@ body{
     line-height: 1.6;
 }
 
-
-/* ------------------------------- */
 /*            HEADER               */
-/* ------------------------------- */
 
 header{
     background-color: #e7f0f4;
@@ -97,10 +90,11 @@ nav li:hover{
     color: #949C30;
 }
 
+nav li:focus{
+    color: #949C30;
+}
 
-/* ------------------------------- */
 /*             FOOTER              */
-/* ------------------------------- */
 
 footer{
     background-color: #075d85;
@@ -133,10 +127,13 @@ footer p{
     font-size: 1.1rem;
 }
 
+.legal:hover{
+    color: #949C30;
+}
 
-/* ------------------------------- */
-/*          OTROS ESTILOS          */
-/* ------------------------------- */
+.legal:focus{
+    color: #949C30;
+}
 
 .icono{
     width: 200px;
@@ -159,6 +156,11 @@ footer p{
     color: #ffffff;
     background-color: #949C30;
     cursor: pointer;
+}
+
+.botonPrincipal:focus{
+    color: #ffffff;
+    background-color: #949C30;
 }
 
 .fraseFinal{
@@ -197,14 +199,8 @@ footer p{
 }
 
 
-
-/* -------------------------------- */
 /*     RESPONSIVE - TABLET ≤900px   */
-/* -------------------------------- */
 
-/* ------------------------------- */
-/*     RESPONSIVE - TABLET ≤900px   */
-/* ------------------------------- */
 
 @media (max-width: 900px){
 
@@ -262,9 +258,8 @@ footer p{
 }
 
 
-/* ------------------------------- */
 /*      RESPONSIVE - MÓVIL ≤768px  */
-/* ------------------------------- */
+
 
 @media (max-width: 768px){
 
