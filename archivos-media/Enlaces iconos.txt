@@ -1,11 +1,8 @@
-cardiaca: https://www.flaticon.es/icono-gratis/ejercicio-con-mancuernas_9158?term=ejercicio+mancuernas&page=2&position=47&origin=search&related_id=9158
-pediatrica: https://www.flaticon.es/icono-gratis/primer-paso_9922511?term=primer+paso&page=1&position=6&origin=search&related_id=9922511
-prevencion: https://www.flaticon.es/icono-gratis/fisioterapia_414263?term=fisioterapia&page=1&position=45&origin=search&related_id=414263
-geriatrica: https://www.flaticon.es/icono-gratis/rehabilitacion_2277922?term=fisioterapia&page=4&position=51&origin=search&related_id=2277922
-complementarias: https://www.flaticon.es/icono-gratis/acupuntura_1165513?term=acupuntura&page=4&position=76&origin=search&related_id=1165513
-postquirúrgica: https://www.flaticon.es/icono-gratis/rehabilitacion_2277850?term=rehabilitacion&page=1&position=29&origin=search&related_id=2277850
-general: https://www.flaticon.es/icono-gratis/quiropractica_2277925?related_id=2277925
-neurologica: https://www.flaticon.es/icono-gratis/pelota-de-ejercicio_2277932?term=rehabilitaci%C3%B3n&page=1&position=11&origin=search&related_id=2277932
-servicios: https://www.flaticon.es/icono-gratis/masaje_414265?term=masajes&page=1&position=44&origin=search&related_id=414265
-contacto: https://www.flaticon.es/icono-gratis/contact-information_10268604?term=contacto&related_id=10268604
-tarifas: https://www.flaticon.es/icono-gratis/devolucion-de-dinero_10139969?term=euros&page=1&position=66&origin=search&related_id=10139969
+Rehabilitación cardiaca: <a href="https://www.flaticon.es/iconos-gratis/gimnasio" title="gimnasio iconos">Gimnasio iconos creados por Freepik - Flaticon</a>
+Fisioterapia pediatrica: <a href="https://www.flaticon.es/iconos-gratis/primer-paso" title="primer paso iconos">Primer paso iconos creados por Leremy - Flaticon</a>
+Fisioterapia geriatrica: <a href="https://www.flaticon.es/iconos-gratis/rehabilitacion" title="rehabilitación iconos">Rehabilitación iconos creados por Freepik - Flaticon</a>
+Rehabilitación postquirúrgica: <a href="https://www.flaticon.es/iconos-gratis/fisioterapia" title="fisioterapia iconos">Fisioterapia iconos creados por Freepik - Flaticon</a>
+Fisioterapia general: <a href="https://www.flaticon.es/iconos-gratis/fisioterapia" title="fisioterapia iconos">Fisioterapia iconos creados por Freepik - Flaticon</a>
+Fisioterapia neurologica: <a href="https://www.flaticon.es/iconos-gratis/fisioterapia" title="fisioterapia iconos">Fisioterapia iconos creados por Freepik - Flaticon</a>
+Inicio-botón de servicios: <a href="https://www.flaticon.es/iconos-gratis/spa" title="spa iconos">Spa iconos creados por Freepik - Flaticon</a>
+Sobre mí-botón de contacto: <a href="https://www.flaticon.es/iconos-gratis/datos-de-contacto" title="datos de contacto iconos">Datos de contacto iconos creados por Buandesign - Flaticon</a>
