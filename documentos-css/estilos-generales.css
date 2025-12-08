@@ -43,8 +43,13 @@ li{
 }
 
 a{
+    font-family: 'Nunito', sans-serif;
     color: inherit;
     text-decoration: none;
+}
+
+button{
+    font-family: 'Nunito', sans-serif;
 }
 
 body{
